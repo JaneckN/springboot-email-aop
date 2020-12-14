@@ -1,4 +1,4 @@
-package pl.com.janeck.demo;
+package pl.com.janeck;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
