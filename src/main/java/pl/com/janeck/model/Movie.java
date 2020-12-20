@@ -1,17 +1,22 @@
 package pl.com.janeck.model;
 
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Movie {
 
+    @JsonProperty("id")
     private Long id;
+    @JsonProperty("title")
     private String title;
+    @JsonProperty("year")
     private int year;
+    @JsonProperty("producer")
     private String producer;
 
-
+    @JsonCreator
     public Movie(String title, int year, String producer) {
-        this.id = id;
         this.title = title;
         this.year = year;
         this.producer = producer;
