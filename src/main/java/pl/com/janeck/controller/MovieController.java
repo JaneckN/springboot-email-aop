@@ -5,8 +5,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.com.janeck.annotation.AddMovie;
-import pl.com.janeck.service.EmailService;
 import pl.com.janeck.model.Movie;
+import pl.com.janeck.service.EmailService;
 import pl.com.janeck.service.MovieService;
 
 import java.util.List;
